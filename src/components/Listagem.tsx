@@ -12,7 +12,7 @@ const Listagem = () => {
     useEffect(() => {
         async function fatchData() {
             try {
-                const response = await axios.get('http://10.137.9.132:8000/api/find')
+                const response = await axios.get('http://10.137.9.131:8000/api/find')
                 setUsuarios(response.data.data);
 
             } catch (error) {

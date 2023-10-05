@@ -51,7 +51,7 @@ const BuscaCepForm = () => {
                 <p>Cidade:  {localidade}</p>
                 <p>Estado:  {uf}</p>
                 <p>CEP      {cep}</p>
-                <p className={styles.error}>e{erro}</p>
+                <p className={styles.error}>{erro}</p>
             </main>
             <Footer />
         </div>
