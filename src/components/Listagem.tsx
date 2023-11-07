@@ -104,9 +104,9 @@ return (
                                         <td>{usuario.id}</td>
                                         <td>{usuario.nome}</td>
                                         <td>{usuario.cpf}</td>
-                                        <td>{usuario.email}r</td>
+                                        <td>{usuario.email}</td>
                                         <td>
-                                            <a href="#" className='btn btn-primary btn-sm'>Editar</a>
+                                            <a href="../Editar/id" className='btn btn-primary btn-sm' >Editar</a>
                                             <a href="#" className='btn btn-danger btn-sm'>Excluir</a>
                                         </td>
                                     </tr>
