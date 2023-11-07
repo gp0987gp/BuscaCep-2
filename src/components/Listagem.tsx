@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, {
     Component, useState, ChangeEvent, FormEvent, useEffect
 } from 'react';
+import { Link } from 'react-router-dom';
 import styles from '../App.module.css';
 import { CadastroInterface } from '../interface/CadastroInterface';
 const Listagem = () => {
@@ -106,7 +107,7 @@ return (
                                         <td>{usuario.cpf}</td>
                                         <td>{usuario.email}</td>
                                         <td>
-                                            <a href="../Editar/id" className='btn btn-primary btn-sm' >Editar</a>
+                                            <a href="#" className='btn btn-primary btn-sm'>Editar</a>
                                             <a href="#" className='btn btn-danger btn-sm'>Excluir</a>
                                         </td>
                                     </tr>
